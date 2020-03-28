@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../../styles.css">
+	<link rel="stylesheet" href="../../CSS/nav.css">
+    <link rel="stylesheet" href="../../CSS/partir.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+	<link rel="icon" type="image/png" href="../../Images/display.png">
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+	<title>Partir à l'étranger</title>
+
+<body>
+
+	<div class="wrap">
+	    <header>
+		    <a href="../../index.html"><img src="../../Images/logo-IUT.png" alt="logo" id="logo"></a>
+		    <p id="dpt-info">département informatique</p>
+		    <a href="https://ftpiut21.u-bourgogne.fr/login?r=%2Ffile" target="_blank" title="Accès au service WebFTP pour les étudiants de l'IUT"><img src="../../Images/logo-fichiers.png" alt="fichiers" id="fichiers"></a>
+		    <a href="https://iut-dijon.u-bourgogne.fr/" target="_blank" title="Accès à la messagerie Zimbra de l'IUT"><img src="../../Images/logo-zimbra.png" alt="zimbra" id="zimbra"></a>
+		    <a href="https://casiut21.u-bourgogne.fr/login?service=https%3A%2F%2Fiutdijon.u-bourgogne.fr%2Foge%2F" target="_blank" title="Accès à l'Outil de Gestion des Etudiants"><img src="../../Images/logo-oge.png" alt="oge" id="oge"></a>
+		    <a href="../../index.html" title="Site en français"><img src="../../Images/fr.2f9befe9.svg" alt="fr" id="fr"></a>
+		    <a href="../../index_en.html" title="Site en anglais"><img src="../../Images/en.30d832da.svg" alt="en" id="en"></a>
+		    <img src="../../Images/separation.png" id="separation-gauche" alt="">
+		    <img src="../../Images/separation.png" id="separation-droite" alt="">
+		    <div id="a-propos"><a href="../a-propos.html">À propos</a></div>
+		    <nav>
+		        <label for="menu-mobile" class="menu-mobile">Menu</label>
+		        <input type="checkbox" id="menu-mobile" role="button">
+		        <ul>
+		            <li class="menu"><a href="../../index.html">Accueil</a></li>
+		            <li class="menu"><a>Formation</a>
+		                <ul class="submenu">
+		                    <li><a href="../Formation/inscription.html">Inscription</a></li>
+		                    <li><a href="../Formation/programme.html">Programme</a></li>
+		                    <li><a href="../Formation/stage.html">Stage</a></li>
+		                    <li><a href="../Formation/projets.html">Projets</a></li>
+		                    <li><a href="../Formation/poursuites.html">Poursuites d'études</a></li>
+		                </ul>
+		            </li>
+		            <li class="menu"><a class="active">International</a>
+		                <ul class="submenu">
+		                    <li><a href="partir.html"><span class="orange_gras">Partir à l'étranger</span></a></li>
+		                    <li><a href="venir.html">Venir étudier à l'IUT</a></li>
+		                </ul>
+		            </li>
+		            <li class="menu"><a>Vie étudiante</a>
+		                <ul class="submenu">
+		                    <li><a href="../VieEtudiante/etiq.html">L'ETIQ</a></li>
+		                    <li><a href="../VieEtudiante/sport.html">Sports</a></li>
+		                    <li><a href="../VieEtudiante/logements.html">Logements</a></li>
+		                    <li><a href="../VieEtudiante/vivre.html">Vivre à Dijon</a></li>
+		                </ul>
+		            </li>
+		            <li class="menu"><a href="../contact.html">Contact</a></li>
+		        </ul>
+		    </nav>
+		    <div id="barre-bas"></div>
+		</header>
+	</div>
+
+
+
+<div class="corps_index">
+
+    <h1>Étudier à l'étranger</h1>
+    <hr>
+    <div class="icone_ligne">
+        <img src="../../Images/section-icon.png" id="icon" alt="">
+    </div>
+
+    <div class="corps_index_1">
+        <div class="back_map">
+            <h2>
+                <img src="../../Images/graduation-cap.svg">
+                    Universités partenaires
+            </h2>
+            <div id="mapid"></div>
+            <p>Pour en savoir plus sur les Universités partenaires et les destinations possibles, consultez directement le <a href="https://iutdijon.u-bourgogne.fr/www/international/universites-partenaires.html" target="_blank" class="bleu_lien">site de l'IUT</a>.</p>
+        </div>
+
+        <div class="corps_index_1_1">
+            <div class="back_contact">
+                <h2>
+                  <img src="../../Images/address-book.svg">
+                    Contact
+                </h2>
+                <p>Le coordinateur international pour le département informatique est <span class="orange_gras">Maxime Ambard</span>.</p>
+                <p>Courriel :<a href="mailto:maxime.ambard@iut-dijon.u-bourgogne.fr" class="mail_contact" target="_blank">maxime.ambard@iut-dijon.u-bourgogne.fr</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="corps_index_2">
+        <div class="corps_index_2_1">
+            <div class="back_info">
+                <h2>
+                    <img src="../../Images/earth.svg">
+                    Partir à l'étranger
+                </h2>
+                <p>Les étudiants peuvent pendant leur cursus effectuer une mobilité à l'international à partir de la deuxième année ainsi que dans le cadre d'une poursuite d'études en troisième année.</p>
+                <p>Vous pouvez obtenir plus d'informations en consultant le guide <a href="http://www.ijbourgogne.com/IMG/pdf/guide_partir_a-l-etranger_agitateurs-mobilite.pdf" target="_blank" class="bleu_lien">Partir à l'étranger</a>.</p>
+                <p>L'étudiant peut partir à l'étranger dans les <span class="orange_gras">3 cadres suivants</span> :</p>
+            </div>
+        </div>
+        <div class="corps_index_2_2">
+            <div class="back_info_2">
+                <h3>Poursuites d'études</h3>
+                <p>Les étudiants titulaires d'un DUT peuvent s'inscrire dans un <span class="orange_gras">D</span>îplome <span class="orange_gras">U</span>niversitaire d'<span class="orange_gras">E</span>tudes <span class="orange_gras">T</span>echnologiques <span class="orange_gras">I</span>nternationales (<span class="orange_gras">DUETI</span>).</p>
+                <p>Ce dîplome de niveau bac + 3, donne accès aux concours niveau <span class="orange_gras">Licence</span> et par équivalence permet de candidater à des formations niveau <span class="orange_gras">Master</span>.</p>
+            </div>  
+        </div>
+
+      <div class="corps_index_2_3">
+            <div class="back_info_3">
+                <h3>Mobilité académique</h3>
+                <p>Avec le département informatique, vous pouvez effectuer une partie de la <span class="orange_gras">deuxième année</span> dans une université partenaire.<br>(voir carte ci-contre)</p> 
+                <p><span class="orange_gras">Attention</span>, toutes les universités partenaires n'offrent pas la possibilité d'un accueil au semestre.</p>
+            </div>  
+        </div>
+
+        <div class="corps_index_2_4">
+            <div class="back_info_4">
+                <h3>Stage de fin d'études</h3>
+                <p><span class="orange_gras">Tous les pays</span> du monde sont éligibles à une mobilité internationale<br>(sauf les DOM-TOM).</p>
+                <p>Les expériences et les stages des promotions précédentes constituent un <span class="orange_gras">vivier d'adresses</span> consultables dans l'application <a href="https://iutdijon.u-bourgogne.fr/siav/?service=https%3A%2F%2Fiutdijon.u-bourgogne.fr%2Fesup-pstage%2Fstylesheets%2Fstage%2Fwelcome.xhtml" target="_blank" class="bleu_lien">Pstage</a>.</p>
+            </div>
+        </div>
+
+        <div class="corps_index_2_5">
+            <div class="back_info_5">
+                <p>Pour obtenir des informations sur les <span class="orange_gras">bourses</span> ou encore consulter des <span class="orange_gras">témoignages</span>, rendez-vous sur le <a href="https://iutdijon.u-bourgogne.fr/www/international/partir-a-l-etranger.html" target="_blank" class="bleu_lien">site de l'IUT</a>.</p>
+
+            </div>
+
+        </div>
+
+
+   
+    </div>
+</div> 
+
+ <!-- flèche -->
+<div class="remonte">
+    <a href="#separation-gauche"><img src="../../Images/circle-up.svg" id="circle" alt="remonter"></a>
+</div>
+
+
+ <!-- Footer -->
+<footer>
+    <div id="footer_1">
+        <div class="footer_1_1">
+            <a href="https://www.u-bourgogne.fr/" target="_blank" id="ub_a" title="Site de l'Université de Bourgogne"><img src="../../Images/logo-ub.png" alt="ub" id="ub"></a>
+        </div>
+        <div class="footer_1_2">
+            <a title="Page Facebook de l'IUT" href="https://www.facebook.com/iut.de.dijon.auxerre/" target="_blank" id="logo_fb_a"><img src="../../Images/facebook2.svg" id="logo_fb" alt="facebook"></a>
+            <a title="Page LinkedIn de l'IUT" href="https://www.linkedin.com/school/iut-dijon-auxerre/" target="_blank" id="logo_linkedin_a"><img src="../../Images/linkedin.svg" id="logo_linkedin" alt="linkedin"></a>
+            <a title="Courriel du secrétariat du département informatique" href="mailto:iq-sec@iut-dijon.u-bourgogne.fr" target="_blank" id="logo_mail_a"><img src="../../Images/mail2.svg" id="logo_mail" alt="mail"></a>
+        </div>
+        <div class="footer_1_3">
+            <a id="mentions" href="../a-propos.html">Mentions légales</a>
+        </div>
+    </div>
+
+    <div id="footer_2">
+        <table>
+            <thead>
+                <tr>
+                    <th>Formation</th>
+                    <th>International</th>
+                    <th>Vie étudiante</th>
+                </tr>
+            </thead>
+            <tr>
+                <td><a href="../Formation/inscription.html">Inscription</a></td>
+                <td><a href="partir.html">Partir à l'étranger</a></td>
+                <td><a href="../VieEtudiante/etiq.html">L'ETIQ</a></td>
+            </tr>
+            <tr>
+                <td><a href="../Formation/programme.html">Programme</a></td>
+                <td><a href="venir.html">Venir étudier à l'IUT</a></td>
+                <td><a href="../VieEtudiante/sport.html">Sports</a></td>
+            </tr>   
+            <tr>
+                <td><a href="../Formation/stage.html">Stage</a></td>
+                <td></td>
+                <td><a href="../VieEtudiante/logements.html">Logements</a></td>
+            </tr>
+            <tr>
+                <td><a href="../Formation/projets.html">Projets</a></td>
+                <td></td>
+                <td><a href="../VieEtudiante/vivre.html">Vivre à Dijon</a></td>
+            </tr>
+            <tr>
+                <td><a href="../Formation/poursuites.html">Poursuites d'études</a></td>
+                <td></td>
+                <td></td>
+            </tr>                                                           
+        </table>
+    </div>
+
+    <div id="footer_3">
+        <a title="Site de l'IUT" href="https://iutdijon.u-bourgogne.fr/www/" target="_blank" id ="iut_a"><img src="../../Images/Logo-IUT-detoure.png" id="iut" alt="iut"></a>
+        <address>
+            <div class="campus_dijon">
+                <span class="campus">Campus de Dijon</span>
+                <br>
+                Bd Docteur Petitjean
+                <br>
+                BP 17867
+                <br>
+                21078 DIJON CEDEX
+                <br>
+                Tél : <a href="tel:+33380396595" class="tel">03 80 39 65 95</a>
+            </div>
+            <div class="campus_auxerre">
+                <span class="campus">Campus d'Auxerre</span>
+                <br>
+                Route des Plaines de l'Yonne
+                <br>
+                89000 AUXERRE
+                <br>
+                Tél : <a href="tel:+33386492820" class="tel">03 86 49 28 20</a>
+            </div>
+        </address>
+        </div>
+</footer>
+
+<script src="../../JS/map.js"></script>
+</body>

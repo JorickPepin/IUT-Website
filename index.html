@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Accueil - DUT Informatique Dijon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="icon" type="image/png" href="Images/display.png">
+</head>
+ 
+<body>
+    <header>
+        <a href="index.html"><img src="Images/logo-IUT.png" alt="logo" id="logo"></a>
+        <p id="dpt-info">département informatique</p>
+        <a href="https://ftpiut21.u-bourgogne.fr/login?r=%2Ffile" target="_blank" title="Accès au service WebFTP pour les étudiants de l'IUT"><img src="Images/logo-fichiers.png" alt="fichiers" id="fichiers"></a>
+        <a href="https://iut-dijon.u-bourgogne.fr/" target="_blank" title="Accès à la messagerie Zimbra de l'IUT"><img src="Images/logo-zimbra.png" alt="zimbra" id="zimbra"></a>
+        <a href="https://casiut21.u-bourgogne.fr/login?service=https%3A%2F%2Fiutdijon.u-bourgogne.fr%2Foge%2F" target="_blank" title="Accès à l'Outil de Gestion des Etudiants"><img src="Images/logo-oge.png" alt="oge" id="oge"></a>
+        <a href="index.html" title="Site en français"><img src="Images/fr.2f9befe9.svg" alt="fr" id="fr"></a>
+        <a href="index_en.html" title="Site en anglais"><img src="Images/en.30d832da.svg" alt="en" id="en"></a>
+        <img src="Images/separation.png" id="separation-gauche" alt="">
+        <img src="Images/separation.png" id="separation-droite" alt="">
+        <div id="a-propos"><a href="HTML/a-propos.html">À propos</a></div>
+        <nav>
+            <label for="menu-mobile" class="menu-mobile">Menu</label>
+            <input type="checkbox" id="menu-mobile" role="button">
+            <ul>
+                <li class="menu"><a class="active" href="index.html">Accueil</a></li>
+                <li class="menu"><a>Formation</a>
+                    <ul class="submenu">
+                        <li><a href="HTML/Formation/inscription.html">Inscription</a></li>
+                        <li><a href="HTML/Formation/programme.html">Programme</a></li>
+                        <li><a href="HTML/Formation/stage.html">Stage</a></li>
+                        <li><a href="HTML/Formation/projets.html">Projets</a></li>
+                        <li><a href="HTML/Formation/poursuites.html">Poursuites d'études</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a>International</a>
+                    <ul class="submenu">
+                        <li><a href="HTML/International/partir.html">Partir à l'étranger</a></li>
+                        <li><a href="HTML/International/venir.html">Venir étudier à l'IUT</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a>Vie étudiante</a>
+                    <ul class="submenu">
+                        <li><a href="HTML/VieEtudiante/etiq.html">L'ETIQ</a></li>
+                        <li><a href="HTML/VieEtudiante/sport.html">Sports</a></li>
+                        <li><a href="HTML/VieEtudiante/logements.html">Logements</a></li>
+                        <li><a href="HTML/VieEtudiante/vivre.html">Vivre à Dijon</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a href="HTML/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="barre-bas"></div>
+    </header>
+
+<div class="body">
+<!-- Slider -->
+    <div class="slide">
+        <input type="radio" id="i1" name="images" checked/>
+        <input type="radio" id="i2" name="images" />
+        <input type="radio" id="i3" name="images" />
+
+        <div class="slide_img" id="un">
+            <img src="Images/slide-exterieur.jpg" alt="" >
+        </div>
+
+        <div class="slide_img" id="deux">
+            <img src="Images/slide-bu.jpg" alt="">
+        </div>
+
+        <div class="slide_img" id="trois">
+            <img src="Images/slide-accueil.jpg" alt="">
+        </div>
+
+        <div id="nav_slide">
+            <label for="i1" class="dots" id="dot1"></label>
+            <label for="i2" class="dots" id="dot2"></label>
+            <label for="i3" class="dots" id="dot3"></label>
+        </div>
+    </div>
+
+<div class="corps_index">
+
+    <p class="pres">Ce site a pour but de présenter le <span class="orange_gras">D</span>iplôme <span class="orange_gras">U</span>niversitaire de <span class="orange_gras">T</span>echnologie (<span class="orange_gras">DUT</span>) <span class="orange_gras">Informatique</span> de l'<a href="https://iutdijon.u-bourgogne.fr/www/" target="_blank"  id="lien_test"><span class="bleu_gras">IUT</span> de <span class="bleu_gras">Dijon</span>-<span class="bleu_gras">Auxerre</span></a>.</p>
+    <h1>L'IUT</h1>
+    <hr>
+    <div class="icone_ligne">
+        <img src="Images/section-icon.png" alt="">
+    </div>
+
+ <!-- Feed Facebook IUT -->
+    <div class="corps_index_1">
+        <div class="back_fb">
+            <div class="corps_index_1_1">
+                <h2>
+                    <img src="Images/facebook.svg">
+                    Facebook
+                </h2>
+            </div>
+            <div class="corps_index_1_2">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiut.de.dijon.auxerre%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:1px solid #FE7B00;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" id="facebook"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="corps_index_2">
+        <div class="back_info">
+            <div class="corps_index_2_1">
+                <h2>
+                    <img src="Images/info.svg" alt="">
+                    Informations
+                </h2>
+            </div>
+            <div class="corps_index_2_2">
+                <p>L'<span class="orange_gras">I</span>nstitut <span class="orange_gras">U</span>niversitaire de <span class="orange_gras">T</span>echnologie (<span class="orange_gras">IUT</span>) de Dijon-Auxerre c'est <span class="gris_gras">10</span> départements répartis sur <span class="gris_gras">2</span> campus. Ils préparent les <span class="gris_gras">DUT</span> :</p>
+                <table>
+                    <tr>
+                        <th>Campus de Dijon</th>
+                        <th>Campus d'Auxerre</th>
+                    </tr>
+                    <tr>
+                        <td>Gestion Administrative et Commerciale des Organisations (<span class="gris_gras">GACO</span>)</td>
+                        <td>Génie Civil - Construction Durable (<span class="gris_gras">GC-CD</span>)</td>
+                    </tr>
+                    <tr>
+                        <td>Génie Biologique (<span class="gris_gras">GB</span>)</td>
+                        <td>Réseaux et Télécommunications (<span class="gris_gras">RT</span>)</td>
+                    </tr>
+                    <tr>
+                        <td>Gestion des Entreprises et des Administrations (<span class="gris_gras">GEA</span>)</td>
+                        <td>Techniques de Commercialisation (<span class="gris_gras">TC</span>)</td>
+                    </tr>
+                    <tr>
+                        <td>Génie Mécanique et Productique (<span class="gris_gras">GMP</span>)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Information-Communication (<span class="gris_gras">Info-Com</span>)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="index.html" class="bleu_lien">Informatique</a> (<span class="gris_gras">INFO - Ex IQ</span>)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Métiers du Multimédia et de l'Internet (<span class="gris_gras">MMI</span>)</td>
+                        <td></td>
+                    </tr>
+                </table> 
+                <a href="https://iutdijon.u-bourgogne.fr/www/formations/dut.html" target="_blank" id="en_savoir_plus">En savoir plus</a>
+            </div>
+        </div>
+
+    <div class="back_info_2">
+    <div class="corps_index_2_3">
+        <p>Mais c'est aussi :</p>
+        <p>- <a href="https://iutdijon.u-bourgogne.fr/www/formations/lp.html" class="bleu_lien" target="_blank">23</a> licences professionnelles
+        <br>- <span class="gris_gras">2500</span> étudiants, dont <span class="gris_gras">480</span> sur le site d'Auxerre
+        <br>- <span class="gris_gras">145</span> enseignants et enseignants-chercheurs
+        <br>- <span class="gris_gras">65</span> personnels administratifs
+        <br>- <a href="https://iutdijon.u-bourgogne.fr/www/formations/du.html" class="bleu_lien" target="_blank">2</a> diplômes universitaires (DU)</p>
+    </div>
+    <div class="corps_index_2_4">
+        <img title="Crédit photo : Site de l'IUT" id="IUT_vue_ciel" src="Images/IUT_vue_ciel.jpg" alt="Plan des différents départements du campus de Dijon">
+        <span id="image_campus_dijon" class="gris_gras">Campus de Dijon</span>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01" alt="">
+        <div id="caption"></div>
+    </div>
+</div>
+</div>
+</div>
+
+ <!-- flèche -->
+    <div class="remonte">
+        <a href="#separation-gauche"><img src="Images/circle-up.svg" id="circle" alt="remonter"></a>
+    </div>
+
+
+ <!-- Footer -->
+    <footer>
+        <div id="footer_1">
+            <div class="footer_1_1">
+                <a href="https://www.u-bourgogne.fr/" target="_blank" id="ub_a" title="Site de l'Université de Bourgogne"><img src="Images/logo-ub.png" alt="ub" id="ub"></a>
+            </div>
+            <div class="footer_1_2">
+                <a title="Page Facebook de l'IUT" href="https://www.facebook.com/iut.de.dijon.auxerre/" target="_blank" id="logo_fb_a"><img src="Images/facebook2.svg" id="logo_fb" alt="facebook"></a>
+                <a title="Page LinkedIn de l'IUT" href="https://www.linkedin.com/school/iut-dijon-auxerre/" target="_blank" id="logo_linkedin_a"><img src="Images/linkedin.svg" id="logo_linkedin" alt="linkedin"></a>
+                <a href="mailto:iq-sec@iut-dijon.u-bourgogne.fr" target="_blank" id="logo_mail_a" title="Courriel du secrétariat du département informatique"><img src="Images/mail2.svg" id="logo_mail" alt="mail"></a>
+            </div>
+            <div class="footer_1_3">
+                <a id="mentions" href="HTML/a-propos.html">Mentions légales</a>
+            </div>
+        </div>
+
+        <div id="footer_2">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Formation</th>
+                        <th>International</th>
+                        <th>Vie étudiante</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td><a href="HTML/Formation/inscription.html">Inscription</a></td>
+                    <td><a href="HTML/International/partir.html">Partir à l'étranger</a></td>
+                    <td><a href="HTML/VieEtudiante/etiq.html">L'ETIQ</a></td>
+                </tr>
+                <tr>
+                    <td><a href="HTML/Formation/programme.html">Programme</a></td>
+                    <td><a href="HTML/International/venir.html">Venir étudier à l'IUT</a></td>
+                    <td><a href="HTML/VieEtudiante/sport.html">Sports</a></td>
+                </tr>   
+                <tr>
+                    <td><a href="HTML/Formation/stage.html">Stage</a></td>
+                    <td></td>
+                    <td><a href="HTML/VieEtudiante/logements.html">Logements</a></td>
+                </tr>
+                <tr>
+                    <td><a href="HTML/Formation/projets.html">Projets</a></td>
+                    <td></td>
+                    <td><a href="HTML/VieEtudiante/vivre.html">Vivre à Dijon</a></td>
+                </tr>
+                <tr>
+                    <td><a href="HTML/Formation/poursuites.html">Poursuites d'études</a></td>
+                    <td></td>
+                    <td></td>
+                </tr>                                                           
+            </table>
+        </div>
+
+        <div id="footer_3">
+            <a href="https://iutdijon.u-bourgogne.fr/www/" target="_blank" id ="iut_a" title="Site de l'IUT"><img src="Images/Logo-IUT-detoure.png" id="iut" alt="iut"></a>
+            <address>
+                <div class="campus_dijon">
+                    <span class="campus">Campus de Dijon</span>
+                    <br>
+                    Bd Docteur Petitjean
+                    <br>
+                    BP 17867
+                    <br>
+                    21078 DIJON CEDEX
+                    <br>
+                    Tél : <a href="tel:+33380396595" class="tel">03 80 39 65 95</a>
+                </div>
+                <div class="campus_auxerre">
+                    <span class="campus">Campus d'Auxerre</span>
+                    <br>
+                    Route des Plaines de l'Yonne
+                    <br>
+                    89000 AUXERRE
+                    <br>
+                    Tél : <a href="tel:+33386492820" class="tel">03 86 49 28 20</a>
+                </div>
+            </address>
+            </div>
+    </footer>
+    </div>
+
+
+    <script src="JS/slide.js"></script>
+    <script src="JS/iut_vue_ciel.js"></script> 
+</body>

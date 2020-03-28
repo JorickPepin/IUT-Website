@@ -1,0 +1,67 @@
+h1 {
+	margin-top: 0;
+}
+
+hr {
+	margin-bottom: 20px;
+}
+
+.icone_ligne {
+    position: relative;
+    text-align: center;
+    bottom: 31px;
+}
+
+.corps_index_1 {
+	float: left;
+	width: 50%;
+}
+
+.corps_index_1_2 {
+	float: left;
+	width: 100%;
+}
+
+.corps_index_2 {
+	float: right;
+	width: 50%;
+}
+
+.back_premiere {
+	background-color: #fff;
+    padding: 1.5em;
+    width: 78%;
+    border: 1px solid #077EFE;
+    float: left;
+}
+
+.back_admission  {
+	background-color: #fff;
+    padding: 1.5em;
+    width: 78%;
+    border: 1px solid #077EFE;
+    float: left;
+    margin-top: 40px;
+    height: 138px;
+}
+
+.back_deuxieme {
+	background-color: #fff;
+    padding: 1.5em;
+    width: 80%;
+    border: 1px solid #077EFE;
+    float: right;
+}
+
+.back_criteres {
+	background-color: #fff;
+    padding: 1.5em;
+    width: 80%;
+    border: 1px solid #077EFE;
+    float: right;
+    margin-top: 40px;
+}
+
+.corps_index_2_1 li {
+	padding-bottom: 10px;
+}

@@ -1,0 +1,445 @@
+nav {
+	width: 100%;
+	background-color: #077EFE;
+	font-family: Verdana, Calibri, sans-serif;
+}
+
+nav > ul {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 35%; /* 500px */
+	margin-top: 45px; /*45*/
+}
+
+nav li {
+	list-style-type: none;
+}
+
+nav > ul > li {
+	float: left;
+	position: relative;
+}
+
+nav > ul::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.submenu {
+	display: none;
+}
+
+nav input[type=checkbox] {
+	display: none;
+}
+
+nav label {
+	display: none;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav > ul > li > a {
+	padding: 20px 30px; /*20 30 */
+	color: #fff;
+}
+
+nav > ul > li:hover a {
+	padding: 15px 30px 20px 30px; /* 15 30 20 30 */
+}
+
+nav li:hover .submenu {
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+
+.active {
+	box-shadow: inset 0px -5px #FE7B00;
+	background-color: rgba(254, 123, 0, 0.15);
+}
+
+.active_lien {
+	color: #FE7B00;
+	font-weight: bold;
+}
+
+.submenu li a {
+	padding: 15px 30px;/*15 30 */
+	font-size: 13px;
+	color: #222538;
+	width: 250px; /*270*/
+}
+
+.submenu li {
+	border-bottom: 1px solid #CCC;
+}
+
+.submenu li:hover a {
+	color: #FE7B00;
+	font-weight: bold;
+}
+
+#logo {
+	z-index: 1000;
+	width: 175px;
+	height: auto;
+	position: absolute;
+	left: 100px; /* 100px */
+	top: 39px;  /* 20px */
+}
+
+#dpt-info {
+	margin:0 auto;
+	position: absolute;
+	z-index: 1000;
+	color: #077EFE; /*#077EFE; #373a3c #797f84*/ 
+	font-size: 30px;
+	left: 8px;
+	top: 6px;
+	font-weight: bold;
+	font-family: "Raleway", sans-serif;
+	font-variant: small-caps slashed-zero;
+}
+
+#dpt-info-en {
+	margin:0 auto;
+	position: absolute;
+	z-index: 1000;
+	color: #077EFE; /*#077EFE; #373a3c #797f84*/ 
+	font-size: 30px;
+	left: 30px;
+	top: 6px;
+	font-weight: bold;
+	font-family: "Raleway", sans-serif;
+	font-variant: small-caps slashed-zero;
+}
+
+.menu:hover {
+	border-top: 5px solid #FE7B00; 
+	background-color: rgba(254, 123, 0, 0.15);
+}
+
+.menu .submenu {
+	background-color: #fff;
+}
+
+#fr {
+	width: 25px;
+	height: auto;
+	z-index: auto;
+	position: absolute;
+	top: 14px; /* 12*/
+	right: 75px;
+}
+
+#en {
+	width: 25px;
+	height: auto;
+	z-index: auto;
+	position: absolute;
+	top: 14px;
+	right: 30px;
+}
+
+#a-propos {
+	font-size: 15px;
+	z-index: auto;
+	position: absolute;
+	top: 14px;
+	right: 150px;
+}
+
+#a-propos a {
+	text-decoration: none;
+	color: #077EFE; /*bleu*/
+}
+
+#a-propos a:hover {
+	color: #FE7B00; /*orange*/
+}
+
+#separation-droite {
+	position: absolute;
+	top: 0px;
+	right: 125px;
+	z-index: auto;
+	height: 45px;
+}
+
+#separation-gauche {
+	position: absolute;
+	top: 0px;
+	left: 420px;
+	z-index: auto;
+	height: 45px;
+}
+
+#separation-gauche-en {
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	z-index: auto;
+	height: 45px;
+}
+
+#fichiers {
+	width: 50px;
+	height: auto;
+	z-index: 1000;
+	position: absolute;
+	top: 7px; /* 3 */
+	left: 450px;
+}
+
+#zimbra {
+	width: 50px;
+	height: auto;
+	z-index: 1000;
+	position: absolute;
+	top: 7px;
+	left: 530px;
+}
+
+#oge {
+	width: 50px;
+	height: auto;
+	z-index: 1000;
+	position: absolute;
+	top: 7px;
+	left: 610px;	
+}
+
+#fichiers-en {
+	width: 50px;
+	height: auto;
+	z-index: 1000;
+	position: absolute;
+	top: 7px; /* 3 */
+	left: 330px;
+}
+
+#zimbra-en {
+	width: 50px;
+	height: auto;
+	z-index: 1000;
+	position: absolute;
+	top: 7px;
+	left: 410px;
+}
+
+#oge-en {
+	width: 50px;
+	height: auto;
+	z-index: 1000;
+	position: absolute;
+	top: 7px;
+	left: 490px;	
+}
+
+
+#barre-bas {
+	height: 20px; /*15*/
+	width: 100%;
+	background-color: #f3f3f3; /*#FE7B00;*/
+}
+
+footer {
+	width: 100%;
+    background: #373a3c;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#mentions {
+	color: #797f84;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+#mentions:hover {
+	color: #8d9397;
+}
+
+#iut {
+	height: 70px;
+	margin-top: 10px;
+}
+
+#ub {
+	height: 40px;
+	margin-top: 30px;
+}
+
+#footer_1 {
+	display: inline-block;
+	width: 25%;
+    height: 100%;
+    float: left;
+}
+
+#footer_2 {
+	display: inline-block;
+	width: 50%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.footer_1_1, .footer_1_2, .footer_1_3 {
+	text-align: center;
+}
+
+footer table {
+	margin-top: 30px;
+	display: inline-block;
+	text-align: left;
+}
+
+footer th {
+	color: white;
+	font-family: "Raleway", sans-serif;
+}
+
+footer td a {
+	padding-right: 50px;
+	color: #797f84;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+}
+
+footer td a:hover {
+	color: #8d9397;
+}
+
+#footer_3 {
+	display: inline-block;
+	width: 25%;
+	float: right;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+}
+
+footer address {
+	font-size: 15px;
+	color: #797f84;
+}
+
+#circle {
+	height: 60px;
+}
+
+.remonte {
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#logo_fb {
+	height: 40px;
+	margin-top: 10px;
+}
+
+#logo_fb_a {
+	margin-right: 10px;
+}
+
+#logo_linkedin {
+	height: 40px;
+	text-align: center;
+}
+
+#logo_linkedin_a {
+	margin-right: 10px;
+}
+
+#logo_mail {
+	height: 40px;
+}
+
+.campus_dijon {
+	display: inline-block;
+	width: 49%;
+	float: left;
+}
+
+.campus_auxerre {
+	display: inline-block;
+	width: 49%;
+	float: right;
+	border-left: 2px solid white;
+}
+
+.campus {
+	color: white;
+}
+
+.tel {
+	text-decoration: none;
+	color: #797f84;
+}
+
+/*.wrap {
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	margin: 0 auto 100px;
+}*/
+
+.wrap {
+	margin: 0 auto 20px;
+}
+
+/*
+nav input[type=checkbox]:checked ~ ul {
+	display: block;
+}
+
+@media screen and (max-width: 991px) {
+	.menu-mobile {
+		display: block;
+		color: #FFF;
+		background-color: rgba(254, 123, 0, 1);
+		text-align: center;
+		padding: 12px 0px;
+	}
+	nav ul {
+		display: none;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	#logo {
+		display: none;
+	}
+
+	nav ul li, nav ul li a {
+		width: 100%;
+		text-align: center;
+	}
+
+	nav ul li a, nav ul li:hover a {
+		padding: 10px 0px;
+	}
+
+	nav li:hover .submenu {
+		display: block;
+		position: static;
+		background-color: #FFF;
+	}
+
+	#separation, #a-propos {
+		display: none;
+	}
+}*/
+
+

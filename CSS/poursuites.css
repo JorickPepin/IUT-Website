@@ -1,0 +1,64 @@
+h1 {
+	margin-top: 0;
+}
+
+hr {
+	margin-bottom: 20px;
+}
+
+.icone_ligne {
+    position: relative;
+    text-align: center;
+    bottom: 31px;
+}
+
+.corps_index_1 {
+	width: 100%;
+}
+
+.back_info {
+	background-color: #fff;
+    padding: 1em;
+    width: 80%;
+    border: 1px solid #077EFE;	
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.back_3 {
+	background-color: #fff;
+    padding: 1em;
+    width: 36%;
+    border: 1px solid #077EFE;
+    margin-top: 20px;	
+    margin-left: 10%;
+    float: left;
+}
+
+.back_5 {
+	background-color: #fff;
+    padding: 1em;
+    width: 36%;
+    border: 1px solid #077EFE;	
+    margin-top: 20px;	
+    float: left;
+    margin-left: 70px;
+}
+
+.right {
+	text-align: right;
+}
+
+.ensimag {
+	color: green;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.ensimag:hover {
+	color: grey;
+}
+
+#temoignage {
+	margin-top: 26px;
+}
